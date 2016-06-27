@@ -51,7 +51,7 @@ public class IterableByValuesMap extends ForwardingMap<String,Double> implements
 	@Override
 	public void putAll(Map<? extends String,? extends Double> otherMap) {
 		// so we have a putAll that works in terms of our put
-		standardPutAll(otherMap);
+		putAll(otherMap);
 	}
 
 	@Override
@@ -60,7 +60,6 @@ public class IterableByValuesMap extends ForwardingMap<String,Double> implements
 		sortedByValues.clear();
 	}
 
-	@Override
 	public Iterator<Entry<Double,String>> iterator() {
 		return sortedByValues.entries().iterator();
 	}

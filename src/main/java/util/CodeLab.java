@@ -16,8 +16,6 @@ import org.xml.sax.SAXException;
 import Parser.WebList;
 import Parser.WebPage;
 
-import com.google.code.morphia.Datastore;
-import com.google.code.morphia.Morphia;
 import com.mongodb.MongoClient;
 
 import webdb.Web;

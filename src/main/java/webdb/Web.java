@@ -25,11 +25,7 @@ public class Web {
 	private static DBCollection searchCollection;
 	
 	static{
-		try {
-			mongoClient = new MongoClient();
-		} catch (UnknownHostException e) {
-			e.printStackTrace();
-		}
+		mongoClient = new MongoClient();
 		db = mongoClient.getDB("web");
 		webCollection = db.getCollection("urlCollection");
 		searchCollection = db.getCollection("searchCollection");
