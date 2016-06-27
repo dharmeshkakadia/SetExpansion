@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package Parser;
+package parser;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;
