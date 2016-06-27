@@ -15,9 +15,9 @@ import net.billylieurance.azuresearch.AzureSearchWebResult;
 import util.GoogleResults.Result;
 import webdb.Web;
 
-import Parser.ListFinderHTML;
-import Parser.WebList;
-import Parser.WebPage;
+import parser.ListFinderHTML;
+import parser.WebList;
+import parser.WebPage;
 
 import com.google.gson.Gson;
 

@@ -13,8 +13,8 @@ import util.IRUtil;
 import util.LogUtil;
 import util.SearchProvider;
 import webdb.Web;
-import Parser.WebList;
-import Parser.WebPage;
+import parser.WebList;
+import parser.WebPage;
 
 public class Extractor {
 	static HashMap<String, Integer> freqMap = new HashMap<String, Integer>();

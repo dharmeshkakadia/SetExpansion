@@ -16,8 +16,8 @@ import util.LogUtil;
 import util.MapUtil;
 import util.SearchProvider;
 import webdb.Web;
-import Parser.WebList;
-import Parser.WebPage;
+import parser.WebList;
+import parser.WebPage;
 
 
 public class Runner {

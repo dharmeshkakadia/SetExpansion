@@ -1,12 +1,11 @@
 package webdb;
 
-import java.net.UnknownHostException;
 import java.util.ArrayList;
 
 import util.LogUtil;
 import util.SearchProvider;
 
-import Parser.WebPage;
+import parser.WebPage;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonParser;

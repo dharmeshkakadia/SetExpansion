@@ -2,7 +2,7 @@ package webdb;
 
 import java.util.ArrayList;
 
-import Parser.WebPage;
+import parser.WebPage;
 
 public class SearchResult {
 	String query;

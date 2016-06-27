@@ -1,49 +1,16 @@
 package util;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.List;
 
-import net.billylieurance.azuresearch.AzureSearchResultSet;
-import net.billylieurance.azuresearch.AzureSearchWebResult;
-
-import org.jsoup.Jsoup;
-import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-
-import Parser.WebList;
-import Parser.WebPage;
-
-import com.mongodb.MongoClient;
 
 import webdb.Web;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.net.URI;
 import java.net.URISyntaxException;
-import java.net.URL;
-import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map.Entry;
-import java.util.Set;
 
-import concept.Extractor;
-import concept.Runner;
 import de.l3s.boilerpipe.BoilerpipeProcessingException;
-import de.l3s.boilerpipe.document.TextDocument;
-import de.l3s.boilerpipe.extractors.ArticleExtractor;
-import de.l3s.boilerpipe.extractors.CanolaExtractor;
-import de.l3s.boilerpipe.extractors.DefaultExtractor;
-import de.l3s.boilerpipe.extractors.KeepEverythingExtractor;
-import de.l3s.boilerpipe.extractors.LargestContentExtractor;
-import de.l3s.boilerpipe.sax.BoilerpipeSAXInput;
-import de.l3s.boilerpipe.sax.HTMLFetcher;
 
 public class CodeLab {
 	public static void main(String[] args) throws IOException, BoilerpipeProcessingException, SAXException, URISyntaxException {
